@@ -15,7 +15,7 @@
 `npm start`
 
 
-## DEMO : (https://angel-velay-portafolio.netlify.app/)
+## DEMO : (https://angel-velay-resume.netlify.app/)
 
 
 ![screencapture-angel-velay-resume-netlify-app-2022-01-19-03_14_20](https://user-images.githubusercontent.com/26851737/150100357-137bd5f8-e5ac-465c-a253-18b1692fba95.png)
