@@ -11,17 +11,17 @@ function Navigation() {
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
-                    <NavLink to="/" activeClassName="active-class" exact>Inicio</NavLink>
+                    <NavLink to="/" activeClassName="active-class" exact>Home Page</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/about" activeClassName="active-class" exact>Acerca de Mí</NavLink>
+                    <NavLink to="/about" activeClassName="active-class" exact>About Me</NavLink>
                 </li>
 
                 <li className="nav-item">
-                    <NavLink to="/blogs" activeClassName="active-class" exact>Portafolio</NavLink>
+                    <NavLink to="/blogs" activeClassName="active-class" exact>Portfolio</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/contact" activeClassName="active-class" exact>Contacto</NavLink>
+                    <NavLink to="/contact" activeClassName="active-class" exact>Contact Me</NavLink>
                 </li>
             </ul>
             <footer className="footer">

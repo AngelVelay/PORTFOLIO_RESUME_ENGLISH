@@ -15,19 +15,26 @@ function ImageSection() {
                 <SideImage/>
             </div>
             <div className="right-content">
-                <h4>Me llamo <span>Angel Mosiah Velay López</span></h4>
+                <h4>My name is <span>Angel Mosiah Velay López</span></h4>
                 
                 <p className="paragraph">
-                    Recientemente egresé de la carrera de Ingeniería en Computación en la Facultad de Estudios Superiores Aragón-UNAM
+                    Recently graduated in Computer Engineering from the
+                    Facultad de Estudios Superiores Aragon | UNAM.
                     <br/>
                     <br/>
-                    Soy un Desarrollador Junior, apasionado por la programación y aprender nuevas cosas.
-                    Estoy en busca de un lugar en el que pueda crecer profesionalmente mientras pongo en práctica lo que he aprendido.
+                    I 'm a Junior Developer passionate about programming.
+                    <br/>
+                    I consider myself self - taught person, and every day I am
+                    constantly learning.
+                    <br/>
+
+                    <span>My goal is to find a place where I can grow professionally
+                        while I keep learning.</span>
                     
                 </p>
                
                 <div className="final-content">
-                    <PrimaryButton title={'Descargar Cv'}  />
+                    <PrimaryButton title={'Download Resume'}  />
                     <Lottie/>
                 </div>
 

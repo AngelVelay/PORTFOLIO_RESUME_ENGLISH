@@ -17,7 +17,7 @@ function HomePage() {
                
                 
                 <Typical
-                     steps={['Soy Angel Velay', 1000]}
+                     steps={['My name is Angel Velay', 1000]}
                      //loop={Infinity}
                      wrapper="h1"/>
                     
@@ -26,9 +26,9 @@ function HomePage() {
                     <br/>
                 
                
-               <h1><span>Desarrollador Junior</span> </h1>
+               <h1><span>Junior Developer</span> </h1>
                 <Typical
-                     steps={['REACT JS',2000,'NODE JS',2000,'PYTHON',2000,'JAVASCRIPT',2000,'JAVA',2000,'DESARROLLO WEB ']}
+                     steps={['REACT JS',2000,'NODE JS',2000,'PYTHON',2000,'JAVASCRIPT',2000,'JAVA',2000,'WEB DEVELOPER ','SOFTWARE ENGINEER',2000]}
                      //loop={1}
                      wrapper="h1"/>
 

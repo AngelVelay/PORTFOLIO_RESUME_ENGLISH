@@ -15,15 +15,15 @@ function ContactPage() {
     const location = <LocationOnIcon />
     return (
         <MainLayout>
-            <Title title={'Contacto'} span={'Contacto'} />
+            <Title title={'Get in touch'} span={'Get in touch'} />
             <ContactPageStyled >
             <InnerLayout className={'contact-section'}>
                 <div className="left-content">
                   <LottieContact/>
                 </div>
                 <div className="right-content">
-                    <ContactItem title={'Teléfono'} icon={phone} cont1={'+52-5567681748'} />
-                    <ContactItem title={'Correo'} icon={email} cont1={'velayangel@gmail.com'} cont2={'angelvelay55@aragon.unam.mx'} />
+                    <ContactItem title={'Phone'} icon={phone} cont1={'+52-5567681748'} />
+                    <ContactItem title={'Email'} icon={email} cont1={'velayangel@gmail.com'} cont2={'angelvelay55@aragon.unam.mx'} />
                    
                     
                 </div>

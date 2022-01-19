@@ -8,7 +8,10 @@ import Code from '@material-ui/icons/DesktopMac'
 import Tooltip from '@material-ui/core/Tooltip';
 
 
+
 function BlogsPage() {
+
+
     return (
         <MainLayout>
             <BlogsStyled>
@@ -24,14 +27,14 @@ function BlogsPage() {
                                 <div className="blog-link">
     
                                     
-                                    <Tooltip title={<h4 style={{ color: "white" }}>Código en Github</h4>} placement="top"  >
+                                    <Tooltip title={<h4 style={{ color: "white" }}>Github Code</h4>} placement="top"  >
                                         <GitHub  
                                         fontSize="large" 
                                         className="github"
                                         onClick={() => window.open(blog.github)}/>
                                     </Tooltip>
 
-                                    <Tooltip title={<h4 style={{ color: "white" }}>Demostración</h4>} placement="top"  >
+                                    <Tooltip title={<h4 style={{ color: "white" }}>Demostration</h4>} placement="top"  >
                                         <Code 
                                         fontSize="large" 
                                         className="code" 
@@ -40,9 +43,6 @@ function BlogsPage() {
                                        
                                     
                                 </div>   
-
-                                  
-
                                 <div className="title">
                                     <a href={blog.link}>{blog.title}</a>
                                     <p>{blog.content}</p>
@@ -51,7 +51,11 @@ function BlogsPage() {
                         })
                     }
                 </InnerLayout>
+
+                
             </BlogsStyled>
+            
+
         </MainLayout>
     )
 }

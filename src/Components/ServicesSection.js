@@ -17,49 +17,59 @@ function ServicesSection() {
     return (
         <InnerLayout>
             <ServicesSectionStyled>
-                <Title title={'Conocimientos'} span={'Conocimientos'} />
+                <Title title={'Technical Skills'} span={'Technical Skills'} />
                 <div className="services">
                     <ServiceCard 
                         image={react} 
-                        title={'React JS'} 
-                        paragraph={'Conocimientos utilizando React, experiencia utilizando Functional Components y Hooks'} 
+                        title={'React JS | React Native'} 
+                        paragraph={'Knowledge using React JS, experience using functional components and Hooks | REDUX'} 
                     />
                     <div className="mid-card">
                         <ServiceCard 
                             image={node} 
                             title={'Node JS'} 
-                            paragraph={'Conocimientos en la realización de API REST utilizando Express JS'}  
+                            paragraph = {
+                                'Knowledge in the realization of REST APIs using Express JS'
+                            }
                         />
                     </div>
                     <ServiceCard 
                         image={html} 
                         title={'HTML'} 
-                        paragraph={'Conocimiento en la maquetación y estructuración de un Web'}
+                        paragraph={'Knowledge in the layout and structuring of a Web '}
                     />
                      <ServiceCard 
                         image={css} 
                         title={'CSS'} 
-                        paragraph={'Experiencia en la creación de estilos en una Web, también tengo conocimiento utilizando diferentes frameworks como BootStrap, Material UI y usando Styled Components en React'}
+                        paragraph = {
+                            'Experience in the creation of styles in a Web, I also have knowledge using different frameworks such as BootStrap, Material UI and using Styled Components in React.'
+                        }
                     />
                      <ServiceCard 
                         image={java} 
                         title={'Java'} 
-                        paragraph={'Experiencia utilizando POO en Java'}
+                        paragraph = {
+                            'Experience using POO in Java'
+                        }
                     />
                      <ServiceCard 
                         image={python} 
                         title={'Python'} 
-                        paragraph={'Experiencia utilizando "Flask" para realizar Backend y también tengo conocimiento en análisis de datos con "Pandas"'}
+                        paragraph={'Experience in Python programming and using the FLASK framework for the realization of REST APIs'}
                     />
                     <ServiceCard 
                         image={mongo} 
                         title={'Mongo DB'} 
-                        paragraph={'Conocimiento en la creación, manipulación y consulta de datos almacenados y como obtenerlos a través de una API REST'}
+                        paragraph = {
+                            'Knowledge in the creation, manipulation and querying of data and how to obtain it through a REST API.'
+                        }
                     />
                     <ServiceCard 
                         image={mysql} 
                         title={'My SQL'} 
-                        paragraph={'Conocimiento en la creación, manipulación y  consulta SQL de datos almacenados '}
+                        paragraph = {
+                            'Knowledge of data creation, manipulation and SQL queries '
+                        }
                     />
                     
 
