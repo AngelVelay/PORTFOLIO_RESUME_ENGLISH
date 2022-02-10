@@ -4,7 +4,7 @@ import styled from 'styled-components';
 function PrimaryButton({title}) {
     return (
         <PrimaryButtonStyled  
-        onClick={() => window.open("https://drive.google.com/file/d/1bFKpmLwLnjPhxMUk6oKFEPF2x4dnCKUH/view?usp=sharing")}>{title}</PrimaryButtonStyled>
+        onClick={() => window.open("https://drive.google.com/file/d/14qAhnkjP3ciO8wyAfzN3ApnuEXV0YrEK/view?usp=sharing")}>{title}</PrimaryButtonStyled>
     )
 }
 
