@@ -3,6 +3,7 @@ import blog3 from "../img/Aplicacoines/musicsearchcomp.jpg";
 import blog2 from "../img/Aplicacoines/Libreria.jpg";
 import blog4 from "../img/Aplicacoines/crypt_preview_rev_1.jpg";
 import blog5 from "../img/Aplicacoines/criptos.jpg";
+import blog8 from "../img/Aplicacoines/wordle-img.jpg";
 
 import blog7 from "../img/Aplicacoines/marvelapp.jpg";
 import blog6 from "../img/Aplicacoines/gastos.jpg";
@@ -29,6 +30,17 @@ const blogs = [
     image: blog7,
     github: "https://github.com/AngelVelay/MarvelApp",
     demo: "https://marvel-app1.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "Wordle Clone",
+    content:
+      "Application made with Typescript and React , clone of the 'Wordle' game ",
+    date: "01",
+    month: "April",
+    image: blog8,
+    github: "https://github.com/AngelVelay/Wordle",
+    demo: "https://wordle-clone12.netlify.app/",
   },
   /*    {
         id: 2,
