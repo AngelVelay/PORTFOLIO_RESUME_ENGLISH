@@ -25,9 +25,9 @@ function ImageSection() {
           I consider myself self - taught person, and every day I am constantly
           learning.
           <br />
+          <br />
           <span>
-            My goal is to find a place where I can grow professionally while I
-            keep learning.
+          I am currently working as a mobile developer using Flutter at a software company .
           </span>
         </p>
 

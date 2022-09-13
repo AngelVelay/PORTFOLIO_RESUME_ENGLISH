@@ -28,7 +28,7 @@ function HomePage() {
                
                <h1><span>Junior Developer</span> </h1>
                 <Typical
-                     steps={['REACT JS',2000,'NODE JS',2000,'PYTHON',2000,'JAVASCRIPT',2000,'JAVA',2000,'WEB DEVELOPER ','SOFTWARE ENGINEER',2000]}
+                     steps={[,'FLUTTER',2000,'REACT JS',2000,'NODE JS',2000,'PYTHON',2000,'JAVASCRIPT',2000,'JAVA',2000,'WEB DEVELOPER ','SOFTWARE ENGINEER',2000]}
                      //loop={1}
                      wrapper="h1"/>
 

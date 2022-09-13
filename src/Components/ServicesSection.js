@@ -11,6 +11,7 @@ import python from "../img/iconos/icons8-python.svg";
 import java from "../img/iconos/icons8-logotipo-de-java-coffee-cup.svg";
 import mysql from "../img/iconos/icons8-logo-de-mysql.svg";
 import mongo from "../img/iconos/icons8-mongodb.svg";
+import flutter from "../img/iconos/flutter.svg";
 
 function ServicesSection() {
   return (
@@ -18,6 +19,13 @@ function ServicesSection() {
       <ServicesSectionStyled>
         <Title title={"Technical Skills"} span={"Technical Skills"} />
         <div className="services">
+        <ServiceCard
+            image={flutter}
+            title={"Flutter"}
+            paragraph={
+              "Six months of experience developing applications with flutter, using the GetX state manager."
+            }
+          />
           <ServiceCard
             image={react}
             title={"React JS | React Native"}
